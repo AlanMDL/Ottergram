@@ -1,0 +1,88 @@
+@font-face {
+  font-family: 'lakeshore';
+  font-weight: normal;
+  font-style: normal;
+
+  src: url('fonts/LAKESHOR-webfont.eot');
+  src: url('fonts/LAKESHOR-webfont.eot?#iefix') format('embedded-opentype'),
+       url('fonts/LAKESHOR-webfont.woff') format('woff'),
+       url('fonts/LAKESHOR-webfont.ttf') format('truetype'),
+       url('fonts/LAKESHOR-webfont.svg#lakeshore') format('svg');
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background: rgb(149, 194, 215);
+  font-size: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-header {
+  flex: 0 1 auto;
+}
+
+.main-content {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-text {
+  background: white;
+
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 37px;
+  font-family: lakeshore;
+}
+
+.thumbnail-item + .thumbnail-item {
+  margin-top: 10px;
+}
+
+.thumbnail-title {
+  background: rgb(96, 125, 139);
+  color: rgb(202, 238, 255);
+  display: block;
+  font-size: 18px;
+  margin: 0;
+  padding: 4px 10px;
+}
+
+.detail-image-container {
+  flex: 1 1 auto;
+}
+
+.detail-image {
+  width: 90%;
+}
+
+.thumbnail-image {
+  width: 100%;
+  display: block;
+}
+
+.thumbnail-item {
+  display: inline-block;
+  width: 120px;
+  border: 1px solid rgb(100%, 100%, 100%);
+  border: 1px solid rgba(100%, 100%, 100%, 0.8);
+}
+
+.thumbnail-list {
+  flex: 0 1 auto;
+  order: 2;
+  list-style: none;
+  padding: 0;
+
+  white-space: nowrap;
+  overflow-x: auto;
+}

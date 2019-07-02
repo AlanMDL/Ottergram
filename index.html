@@ -4,45 +4,95 @@
 <head>
   <meta charset="utf-8">
   <title>ottergram</title>
-  <link rel="stylesheet" href="/stylesheets/styles.css">
+  <!-- normalize.min.css (min is the smaller file w/o whitespace) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <!-- regular css styling file -->
+  <link rel="stylesheet" href="stylesheets/styles.css">
+  <!-- favicon link -->
+  <link rel="shortcut icon" type="image/png" sizes="16x16" href="/favicon.png">
 </head>
 
 <body>
-  <header>
-    <ul>
-      <li>
-        <a href="#">
-          <img src="img/otter1.jpg" alt="Alan the Otter Chillin'">
-          <span>Alan</span>
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          <img src="img/otter2.jpg" alt="Babepie Chillin'">
-          <span>Babepie</span>
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          <img src="img/otter3.jpg" alt="Kuma's Chillin">
-          <span>Kumas</span>
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          <img src="img/otter4.jpg" alt="Poop">
-          <span>Poop the Otter</span>
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          <img src="img/otter5.jpg" alt="Cutie">
-          <span>Cutiepie</span>
-        </a>
-      </li>
-    </ul>
-    <h1>ottergram</h1>
+  <header class="main-header">
+    <h1 class="logo-text">AlanGram</h1>
   </header>
-</body>
+
+  <main class="main-content">
+  <ul class="thumbnail-list">
+
+    <li class="thumbnail-item">
+      <a href="#">
+        <img class="thumbnail-image" src="img/otter1.jpg" alt="Alan the Otter Chillin'">
+        <span class="thumbnail-title">Alan</span>
+      </a>
+    </li>
+
+    <li class="thumbnail-item">
+      <a href="#">
+        <img class="thumbnail-image" src="img/otter2.jpg" alt="My Baby Otter just chillin on the rock">
+        <span class="thumbnail-title">Noelani</span>
+      </a>
+    </li>
+
+    <li class="thumbnail-item">
+      <a href="#">
+        <img class="thumbnail-image" src="img/otter3.jpg" alt="Otter's just sleeping">
+        <span class="thumbnail-title">Pisces</span>
+      </a>
+    </li>
+    <li class="thumbnail-item">
+      <a href="#">
+        <img class="thumbnail-image" src="img/otter4.jpg" alt="Sleepy Otters">
+        <span class="thumbnail-title">Cuties</span>
+      </a>
+    </li>
+    <li class="thumbnail-item">
+      <a href="#">
+        <img class="thumbnail-image" src="img/otter5.jpg" alt="Supermodel Otter">
+        <span class="thumbnail-title">Papi Chulo</span>
+      </a>
+    </li>
+
+    <li class="thumbnail-item">
+      <a href="#">
+        <img class="thumbnail-image" src="img/otter1.jpg" alt="Alan the Otter Chillin'">
+        <span class="thumbnail-title">Barry</span>
+      </a>
+    </li>
+
+    <li class="thumbnail-item">
+      <a href="#">
+        <img class="thumbnail-image" src="img/otter2.jpg" alt="My Baby Otter just chillin on the rock">
+        <span class="thumbnail-title">Robin</span>
+      </a>
+    </li>
+
+    <li class="thumbnail-item">
+      <a href="#">
+        <img class="thumbnail-image" src="img/otter3.jpg" alt="Otter's just sleeping">
+        <span class="thumbnail-title">Maurice</span>
+      </a>
+    </li>
+    <li class="thumbnail-item">
+      <a href="#">
+        <img class="thumbnail-image" src="img/otter4.jpg" alt="Sleepy Otters">
+        <span class="thumbnail-title">Lesley</span>
+      </a>
+    </li>
+    <li class="thumbnail-item">
+      <a href="#">
+        <img class="thumbnail-image" src="img/otter5.jpg" alt="Supermodel Otter">
+        <span class="thumbnail-title">Barbara</span>
+      </a>
+    </li>
+
+  </ul>
+
+  <div class="detail-image-container">
+    <img class="detail-image" src="img/otter1.jpg" alt="">
+    <span class="detail-image-title">Big Boi</span>
+  </div>
+</main>
+  </body>
 
 </html>
